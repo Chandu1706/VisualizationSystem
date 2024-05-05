@@ -1,0 +1,43 @@
+
+        .chart {
+            margin-bottom: 20px;
+        }
+
+        .controls button {
+            margin-right: 10px;
+        }
+
+        .label {
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+        }
+
+        .axis path,
+        .axis line {
+            fill: none;
+            stroke: #000;
+            shape-rendering: crispEdges;
+        }
+
+        .axis text {
+            font-family: Arial, sans-serif;
+            font-size: 10px;
+        }
+
+        .brush .extent {
+            stroke: #000;
+            fill-opacity: .2;
+            shape-rendering: crispEdges;
+        }
+
+        .tooltip {
+            position: absolute;
+            display: none;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 5px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            pointer-events: none;
+        }

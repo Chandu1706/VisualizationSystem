@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Visualizations</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+    </style>
+</head>
+<body>
+    <h1>Interactive Visualizations</h1>
+    <div class="chart" id="pieChart">
+        <h2>MPG by Manufacturer</h2>
+        <div class="controls">
+            <button id="zoomIn">Zoom In</button>
+            <button id="zoomOut">Zoom Out</button>
+        </div>
+        <svg></svg>
+        <div class="tooltip"></div>
+    </div>
+    <div class="chart" id="barChart">
+        <h2>Acceleration by Manufacturer</h2>
+        <svg width="800" height="300"></svg> 
+    </div>
+    <div class="chart" id="lineGraph">
+        <h2>MPG Trend Analysis over Model Years</h2>
+        <svg width="800" height="300"></svg>
+        <div class="tooltip"></div>
+    </div>
+   
+</body>
+</html>
